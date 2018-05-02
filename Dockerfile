@@ -5,6 +5,7 @@ ENV LDAP_ENABLED=true \
     NEXUS_CONTEXT=nexus \
     DEBUG_LOGGING=false \
     LDAP_SEARCH_BASE="" \
+    LDAP_NAME="" \
     LDAP_URL="" \
     LDAP_PORT=389 \
     LDAP_AUTH_PROTOCOL=ldap \
@@ -19,7 +20,7 @@ ENV LDAP_ENABLED=true \
     LDAP_USER_ID_ATTRIBUTE=uid \
     LDAP_USER_PASSWORD_ATTRIBUTE=userPassword \
     LDAP_USER_OBJECT_CLASS=inetOrgPerson \
-    LDAP_USER_BASE_DN=ou-people \
+    LDAP_USER_BASE_DN=ou=people \
     LDAP_USER_REAL_NAME_ATTRIBUTE=cn \
     LDAP_GROUP_MEMBER_FORMAT='${dn}' \
     NEXUS_CREATE_CUSTOM_ROLES=false
